@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
@@ -21,9 +20,10 @@
             border: 3px solid white;
             box-shadow: 0 0 15px cyan;
         }
-        h1 {
+        h1, .shw {
             font-size: 24px;
             text-shadow: 0 0 5px cyan;
+            color: cyan;
         }
         .button {
             display: block;
@@ -50,12 +50,16 @@
 <body>
 
     <div class="container">
-    
+        <h2 class="shw">shw</h2>
+        <img src="https://source.unsplash.com/200x200/?hacker,code" class="profile-img" alt="Imagem de Perfil">
         <h1>$ucesso & Di$ciplina ./∞</h1>
         
-    <a href="http://T.me/+5531999499999" class="button">T.me/+5531999499999</a>
-    <a href="https://t.me/caosstore_referencia" class="button">Caos Store - Referência</a>
-    <a href="https://caoslogs_bot" class="button">Caos Bot - Logs</a>
-    <a href="https://CaosKitBico_bot" class="button">Caos Bot - Kit Bico</a>
-    <a href="https://caospagamentos_bot" class="button">Caos Bot - Pagamentos</a>
+        <a href="http://T.me/+5531999499999" class="button">T.me/+5531999499999</a>
+        <a href="https://t.me/caosstore_referencia" class="button">Caos Store - Referência</a>
+        <a href="https://caoslogs_bot" class="button">Caos Bot - Logs</a>
+        <a href="https://CaosKitBico_bot" class="button">Caos Bot - Kit Bico</a>
+        <a href="https://caospagamentos_bot" class="button">Caos Bot - Pagamentos</a>
+    </div>
 
+</body>
+</html>
