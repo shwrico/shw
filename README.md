@@ -5,40 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Painel Hacker</title>
     <style>
-        @keyframes pulsar {
-            0% { box-shadow: 0 0 10px yellow; }
-            50% { box-shadow: 0 0 20px yellow; }
-            100% { box-shadow: 0 0 10px yellow; }
-        }
-
-        @keyframes digitar {
-            from { width: 0; }
-            to { width: 100%; }
-        }
-
         body {
             background-color: black;
             color: yellow;
             font-family: Arial, sans-serif;
             text-align: center;
         }
-
         .container {
             margin-top: 50px;
         }
-
-        h1, .shw {
-            font-size: 24px;
-            color: yellow;
-            text-shadow: 3px 3px 5px black;
-            overflow: hidden;
-            white-space: nowrap;
-            border-right: 2px solid yellow;
-            display: inline-block;
-            width: 0;
-            animation: digitar 3s steps(30, end) forwards;
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid yellow;
+            box-shadow: 0 0 15px yellow;
         }
-
+        h1 {
+            font-size: 24px;
+            text-shadow: 0 0 5px yellow, 0 0 10px yellow;
+            animation: glow 1.5s infinite alternate;
+        }
         .button {
             display: block;
             width: 80%;
@@ -52,21 +39,33 @@
             font-size: 18px;
             font-weight: bold;
             text-decoration: none;
-            text-shadow: 2px 2px 5px black;
-            animation: pulsar 1.5s infinite alternate;
-            transition: 0.3s;
+            box-shadow: 0 0 10px yellow;
+            transition: 0.3s, transform 0.3s;
+            animation: pulse 1.5s infinite alternate;
         }
-
         .button:hover {
             background: yellow;
             color: black;
+            transform: scale(1.1);
+        }
+
+        /* Efeito neon piscando */
+        @keyframes glow {
+            from { text-shadow: 0 0 5px yellow; }
+            to { text-shadow: 0 0 20px yellow; }
+        }
+        
+        /* Efeito de leve movimentação nos botões */
+        @keyframes pulse {
+            from { box-shadow: 0 0 10px yellow; }
+            to { box-shadow: 0 0 20px yellow; }
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h2 class="shw">shw</h2>
+        <img src="sua-imagem.jpg" class="profile-img" alt="Imagem de Perfil">
         <h1>$ucesso & Di$ciplina ./∞</h1>
         
         <a href="http://T.me/+5531999499999" class="button">T.me/+5531999499999</a>
