@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -47,8 +46,8 @@
     </style>
 </head>
 <body>
-    <h1><span class="dollar">$</span>ucesso & <span class="dollar">Di$</span>ciplina</h1>
-    <a href="http://T.me/+5531999499999" class="button">Contato do Telegram</a>
+    <h1><span class="dollar">$ucesso & <span class="dollar">Di$ciplina</h1>
+    <a href="http://T.me/+5531999499999" class="button">T.me/+5531999499999</a>
     <a href="https://t.me/caosstore_referencia" class="button">Caos Store - Referência</a>
     <a href="http://t.me/addlist/1_uI3PIiuR9mNzgx" class="button">Projects Database</a>
 </body>
