@@ -1,61 +1,58 @@
-<html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Painel de Consultas</title>
+    <title>Painel Hacker</title>
     <style>
         body {
             background-color: black;
             color: white;
             font-family: Arial, sans-serif;
             text-align: center;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
         }
-        .profile-pic {
-            width: 150px;
-            height: 150px;
+        .container {
+            margin-top: 50px;
+        }
+        .profile-img {
+            width: 120px;
+            height: 120px;
             border-radius: 50%;
-            border: 4px solid white;
-            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
-            object-fit: cover;
+            border: 3px solid white;
+            box-shadow: 0 0 15px cyan;
         }
         h1 {
-            font-size: 2.5em;
-            font-weight: bold;
-            color: white;
-            margin-top: 15px;
+            font-size: 24px;
+            text-shadow: 0 0 5px cyan;
         }
         .button {
-            background-color: black;
-            color: white;
-            border: 2px solid white;
-            padding: 15px 20px;
-            margin: 10px;
-            width: 80%;
-            max-width: 400px;
-            text-align: center;
-            text-decoration: none;
-            font-size: 1.2em;
-            border-radius: 15px;
             display: block;
+            width: 80%;
+            max-width: 300px;
+            margin: 10px auto;
+            padding: 15px;
+            background: black;
+            color: cyan;
+            border: 2px solid cyan;
+            border-radius: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            box-shadow: 0 0 10px cyan;
             transition: 0.3s;
-            box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.5);
         }
         .button:hover {
-            background-color: white;
+            background: cyan;
             color: black;
         }
     </style>
 </head>
 <body>
-    <!-- Troque "imagem.jpg" pela URL ou caminho da imagem que você enviou -->
-    <img src="caosstore.jpg" alt="Foto de perfil" class="profile-pic">
-    <h1><span class="dollar">$ucesso & <span class="dollar">Di$ciplina ./∞
+
+    <div class="container">
+        <img src="sua-imagem.jpg" class="profile-img" alt="Imagem de Perfil">
+        <h1>$ucesso & Di$ciplina ./∞</h1>
+        
     <a href="http://T.me/+5531999499999" class="button">T.me/+5531999499999</a>
     <a href="https://t.me/caosstore_referencia" class="button">Caos Store - Referência</a>
     <a href="https://caoslogs_bot" class="button">Caos Bot - Logs</a>
