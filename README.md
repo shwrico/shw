@@ -1,14 +1,14 @@
-<!DOCTYPE html>
+
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Painel Hacker</title>
+    <title>Painel Futurista</title>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <style>
         body {
             background-color: black;
-            color: yellow;
+            color: #1E3A8A; /* Azul escuro */
             font-family: Arial, sans-serif;
             text-align: center;
             margin: 0;
@@ -33,7 +33,7 @@
 
         h1 {
             font-size: 24px;
-            text-shadow: 0 0 5px yellow, 0 0 10px yellow;
+            text-shadow: 0 0 5px #1E3A8A, 0 0 10px #102A62;
             animation: glow 1.5s infinite alternate;
         }
 
@@ -44,73 +44,64 @@
             margin: 10px auto;
             padding: 15px;
             background: black;
-            color: yellow;
-            border: 2px solid yellow;
+            color: #1E3A8A;
+            border: 2px solid #1E3A8A;
             border-radius: 15px;
             font-size: 18px;
             font-weight: bold;
             text-decoration: none;
-            box-shadow: 0 0 10px yellow;
+            box-shadow: 0 0 10px #102A62;
             transition: 0.3s, transform 0.3s;
             animation: float 2s infinite alternate;
         }
 
         .button:hover {
-            background: yellow;
-            color: black;
+            background: #1E3A8A;
+            color: white;
             transform: scale(1.1);
+            box-shadow: 0 0 20px #1E3A8A;
         }
 
         /* Efeito neon piscando */
         @keyframes glow {
-            from { text-shadow: 0 0 5px yellow; }
-            to { text-shadow: 0 0 20px yellow; }
+            from { text-shadow: 0 0 5px #1E3A8A; }
+            to { text-shadow: 0 0 20px #1E3A8A; }
         }
 
         /* Efeito de flutuação nos botões */
         @keyframes float {
             from { transform: translateY(0px); }
-            to { transform: translateY(-5px); }
+            to { transform: translateY(5px); }
         }
     </style>
 </head>
 <body>
-
-    <!-- Fundo animado -->
     <div id="particles-js"></div>
 
     <div class="container">
         <h1>$ucesso & Di$ciplina ./∞</h1>
-
-        <a href="http://T.me/+5531999499999" class="button">T.me/+5531999499999</a>
-        <a href="https://t.me/caosstore_referencia" class="button">Caos Store - Referência</a>
-        <a href="https://caoslogs_bot" class="button">Caos Bot - Registros</a>
-        <a href="https://CaosKitBico_bot" class="button">Caos Bot - Kit Bico</a>
-        <a href="https://caospagamentos_bot" class="button">Caos Bot - Pagamentos</a>
+        <a href="#" class="button">T.me/+553199949999</a>
+        <a href="#" class="button">Caos Store - Referência</a>
+        <a href="#" class="button">Caos Bot - Registros</a>
+        <a href="#" class="button">Caos Bot - Kit Bico</a>
+        <a href="#" class="button">Caos Bot - Pagamentos</a>
     </div>
 
+    <!-- Configuração das partículas -->
     <script>
         particlesJS("particles-js", {
             "particles": {
-                "number": { "value": 100 },
-                "color": { "value": "#ffff00" },
+                "number": { "value": 80, "density": { "enable": true, "value_area": 800 } },
+                "color": { "value": "#1E3A8A" },
                 "shape": { "type": "circle" },
-                "opacity": {
-                    "value": 0.8,
-                    "random": true,
-                    "anim": { "enable": true, "speed": 1 }
-                },
-                "size": {
-                    "value": 5,
-                    "random": true,
-                    "anim": { "enable": true, "speed": 5 }
-                },
+                "opacity": { "value": 0.8, "random": false },
+                "size": { "value": 4, "random": true },
                 "line_linked": {
                     "enable": true,
                     "distance": 150,
-                    "color": "#ffff00",
+                    "color": "#102A62",
                     "opacity": 0.8,
-                    "width": 2
+                    "width": 1
                 },
                 "move": {
                     "enable": true,
@@ -136,6 +127,5 @@
             "retina_detect": true
         });
     </script>
-
 </body>
 </html>
