@@ -5,20 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Painel Hacker</title>
     <style>
+        @keyframes pulsar {
+            0% { box-shadow: 0 0 10px yellow; }
+            50% { box-shadow: 0 0 20px yellow; }
+            100% { box-shadow: 0 0 10px yellow; }
+        }
+
+        @keyframes digitar {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+
         body {
             background-color: black;
-            color: white;
+            color: yellow;
             font-family: Arial, sans-serif;
             text-align: center;
         }
+
         .container {
             margin-top: 50px;
         }
+
         h1, .shw {
             font-size: 24px;
-            text-shadow: 0 0 5px cyan;
-            color: cyan;
+            color: yellow;
+            text-shadow: 3px 3px 5px black;
+            overflow: hidden;
+            white-space: nowrap;
+            border-right: 2px solid yellow;
+            display: inline-block;
+            width: 0;
+            animation: digitar 3s steps(30, end) forwards;
         }
+
         .button {
             display: block;
             width: 80%;
@@ -26,17 +46,19 @@
             margin: 10px auto;
             padding: 15px;
             background: black;
-            color: cyan;
-            border: 2px solid cyan;
+            color: yellow;
+            border: 2px solid yellow;
             border-radius: 15px;
             font-size: 18px;
             font-weight: bold;
             text-decoration: none;
-            box-shadow: 0 0 10px cyan;
+            text-shadow: 2px 2px 5px black;
+            animation: pulsar 1.5s infinite alternate;
             transition: 0.3s;
         }
+
         .button:hover {
-            background: cyan;
+            background: yellow;
             color: black;
         }
     </style>
