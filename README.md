@@ -49,4 +49,7 @@
     <h1><span class="dollar">$ucesso & <span class="dollar">Di$ciplina
     <a href="http://T.me/+5531999499999" class="button">T.me/+5531999499999</a>
     <a href="https://t.me/caosstore_referencia" class="button">Caos Store - Referência</a>
-    <a href="http://t.me/addlist/1_uI3PIiuR9mNzgx" class="button">projects database</a>
+    <a href="https://caoslogs_bot" class="button">Caos Bot - Logs</a>
+    <a href="https://CaosKitBico_bot" class="button">Caos Bot - Kit Bico</a>
+    <a href="https://caospagamentos_bot" class="button">Caos Bot - Pagamentos</a>
+
