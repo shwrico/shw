@@ -50,7 +50,7 @@
 <body>
 
     <div class="container">
-        <img src="sua-imagem.jpg" class="profile-img" alt="Imagem de Perfil">
+    
         <h1>$ucesso & Di$ciplina ./∞</h1>
         
     <a href="http://T.me/+5531999499999" class="button">T.me/+5531999499999</a>
