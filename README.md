@@ -1,3 +1,4 @@
+
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
@@ -12,13 +13,6 @@
         }
         .container {
             margin-top: 50px;
-        }
-        .profile-img {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            border: 3px solid white;
-            box-shadow: 0 0 15px cyan;
         }
         h1, .shw {
             font-size: 24px;
@@ -51,7 +45,6 @@
 
     <div class="container">
         <h2 class="shw">shw</h2>
-        <img src="https://source.unsplash.com/200x200/?hacker,code" class="profile-img" alt="Imagem de Perfil">
         <h1>$ucesso & Di$ciplina ./∞</h1>
         
         <a href="http://T.me/+5531999499999" class="button">T.me/+5531999499999</a>
